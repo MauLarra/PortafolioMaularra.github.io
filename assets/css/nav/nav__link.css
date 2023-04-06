@@ -1,0 +1,13 @@
+.nav__link{
+    text-decoration: none;
+    color: var(--color-menu);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.nav__link:hover{
+    color: var(--color-fuente-enlace);
+}

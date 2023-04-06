@@ -1,0 +1,41 @@
+:root{
+
+    /*Fuentes*/
+    --font-padron: 'Montserrat', sans-serif;
+    --font-hijo: 'Merriweather', serif;
+
+    /*Colores*/
+    --color-menu:#ffffff;
+    --color-fuente-enlace: #6bca46;
+    --color-fondo: none;
+    --color-fondo-secundario: #ffffff;
+    --valido: #1ed12d;
+    --invalido: #bb2929;
+
+    /*fondos*/
+    --activo: #81bbfd;
+
+    /*sombra*/
+    --sombra: rgba(163,163,163,0.5);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 57px;
+  }
+
+body{
+    font-family: var(--font-padron);
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.titulo__principal{
+    font-family: var(--font-hijo);
+    text-align: center;
+}
+
+.container{
+    padding: 30px;
+    padding-bottom: 5px;
+}
